@@ -45,6 +45,6 @@ Esta API permite gerenciar autores e livros.
 - DELETE /api/Livro/ExcluirLivro: Deleta um livro existente.
 
 ### Créditos
-Este projeto foi ministrado por Crislaine D' Paula.
+Este projeto foi orientado por Crislaine D' Paula.
 
 
