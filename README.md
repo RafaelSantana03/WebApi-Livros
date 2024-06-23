@@ -29,19 +29,20 @@ Esta API permite gerenciar autores e livros.
 
 ### Endpoints
 ## Autores
-GET /api/Autor/ListarAutores: Lista todos os autores.
-GET /api/Autor/BuscarAutorPorId/{idAutor}: Retorna um autor pelo seu ID.
-GET /api/Autor/BuscarAutorPorIdLivro/{idLivro}: Retorna um autor pelo ID do livro.
-POST /api/Autor/CriarAutor: Cria um novo autor.
-PUT /api/Autor/EditarAutor: Atualiza um autor existente.
-DELETE /api/Autor/ExcluirAutor: Deleta um autor existente.
+- GET /api/Autor/ListarAutores: Lista todos os autores.
+- GET /api/Autor/BuscarAutorPorId/{idAutor}: Retorna um autor pelo seu ID.
+- GET /api/Autor/BuscarAutorPorIdLivro/{idLivro}: Retorna um autor pelo ID do livro.
+- POST /api/Autor/CriarAutor: Cria um novo autor.
+- PUT /api/Autor/EditarAutor: Atualiza um autor existente.
+- DELETE /api/Autor/ExcluirAutor: Deleta um autor existente.
+ 
 ## Livros
-GET /api/Livro/ListarLivros: Lista todos os livros.
-GET /api/Livro/BuscarLivroPorId/{idLivro}: Retorna um livro pelo seu ID.
-GET /api/Livro/BuscarLivroPorIdAutor/{idAutor}: Retorna um livro pelo ID do autor.
-POST /api/Livro/CriarLivro: Cria um novo livro.
-PUT /api/Livro/EditarLivro: Atualiza um livro existente.
-DELETE /api/Livro/ExcluirLivro: Deleta um livro existente.
+- GET /api/Livro/ListarLivros: Lista todos os livros.
+- GET /api/Livro/BuscarLivroPorId/{idLivro}: Retorna um livro pelo seu ID.
+- GET /api/Livro/BuscarLivroPorIdAutor/{idAutor}: Retorna um livro pelo ID do autor.
+- POST /api/Livro/CriarLivro: Cria um novo livro.
+- PUT /api/Livro/EditarLivro: Atualiza um livro existente.
+- DELETE /api/Livro/ExcluirLivro: Deleta um livro existente.
 
 ### Créditos
 Este projeto foi ministrado por Crislaine D' Paula.
